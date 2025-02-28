@@ -3102,6 +3102,28 @@
       "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments"
     },
     {
+      "path": "1-2-1 (2)/data.csv",
+      "name": "1-2-1 (2)",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-2-1-title"
+    },
+    {
       "path": "12-c-1/data.csv",
       "name": "12-c-1",
       "profile": "tabular-data-resource",
