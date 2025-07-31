@@ -12,7 +12,108 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "NATURE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "E",
+                "C",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "COMMENT_OBS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Municipal Solid Waste (MSW) collection coverage is defined as the amount of MSW collected as a proportion of total MSW generated.  Projected waste generation. (http://hdl.handle.net/10986/30317). Designation and data provided by the country and compiled by UNHabitat. The designations employed do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area; or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+                "Municipal Solid Waste (MSW) collection coverage is defined as the amount of MSW collected as a proportion of total MSW generated. Waste Wise Cities Tool (WaCT) uses a standardized, field-based methodology developed by UN-Habitat to assess the flow and management of municipal solid waste at the city level. It combines direct observation, interviews with stakeholders, and sampling techniques at households, transfer stations, and disposal sites to quantify the proportion of municipal waste that is collected and managed in controlled facilities. Designation and data provided by the country and compiled by UNHabitat. The designations employed do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area; or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+                "Municipal Solid Waste (MSW) collection coverage is defined as the amount of MSW collected as a proportion of total MSW generated. Designation and data provided by the country and compiled by UNHabitat. The designations employed do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area; or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SOURCE_DETAIL",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "World Bank (2018). What A Waste Global Database, 2018 Edition.",
+                "Waste Wise Cities Tool (WaCT) Survey, United Nations Human Settlements Programme (UN-Habitat)",
+                "United Nations Human Settlements Programme (UN-Habitat).",
+                "UNSD, Country Files from the UNSD/UNEP data collection on environment statistics (available at: https://unstats.un.org/unsd/envstats/country_files). (Date of last update: 16 May 2023).",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Custom Breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Custom code 01",
+                "Custom code 02",
+                "Custom code 06",
+                "Custom code 07",
+                "Custom code 15",
+                "Custom code 16",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Label for custom breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Eldoret",
+                "Kiambu",
+                "Mombasa",
+                "Nairobi",
+                "Homa Bay",
+                "Voi",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Nature of data points",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Estimated",
+                "Country Data",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Observation-level footnotes",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Municipal Solid Waste (MSW) collection coverage is defined as the amount of MSW collected as a proportion of total MSW generated.  Projected waste generation. (http://hdl.handle.net/10986/30317). Designation and data provided by the country and compiled by UNHabitat. The designations employed do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area; or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+                "Municipal Solid Waste (MSW) collection coverage is defined as the amount of MSW collected as a proportion of total MSW generated. Waste Wise Cities Tool (WaCT) uses a standardized, field-based methodology developed by UN-Habitat to assess the flow and management of municipal solid waste at the city level. It combines direct observation, interviews with stakeholders, and sampling techniques at households, transfer stations, and disposal sites to quantify the proportion of municipal waste that is collected and managed in controlled facilities. Designation and data provided by the country and compiled by UNHabitat. The designations employed do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area; or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+                "Municipal Solid Waste (MSW) collection coverage is defined as the amount of MSW collected as a proportion of total MSW generated. Designation and data provided by the country and compiled by UNHabitat. The designations employed do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area; or of its authorities, or concerning the delimitation of its frontiers or boundaries.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Source details",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "World Bank (2018). What A Waste Global Database, 2018 Edition.",
+                "Waste Wise Cities Tool (WaCT) Survey, United Nations Human Settlements Programme (UN-Habitat)",
+                "UNSD, Country Files from the UNSD/UNEP data collection on environment statistics (available at: https://unstats.un.org/unsd/envstats/country_files). (Date of last update: 16 May 2023).",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",

@@ -16,26 +16,31 @@
             "title": "Año"
           },
           {
-            "name": "Series",
+            "name": "COMMENT_OBS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of total government spending on essential services (education, health and social protection)",
+                "Budgetary Central Government Sector",
+                "General Government Sector",
+                "Central Government Sector (incl. social security funds)",
                 ""
               ]
             },
-            "title": "Series"
+            "title": "COMMENT_OBS"
           },
           {
-            "name": "Units",
+            "name": "SDG Series",
             "type": "string",
             "constraints": {
               "enum": [
-                "Percentage(%)",
+                "Proportion of total government spending on essential services, education [1.a.2]",
+                "Proportion of total government spending on essential services [1.a.2]",
+                "Proportion of total government spending on essential services, health [1.a.2]",
+                "Proportion of total government spending on essential services, social protection [1.a.2]",
                 ""
               ]
             },
-            "title": "Units"
+            "title": "SDG Series"
           },
           {
             "name": "Value",

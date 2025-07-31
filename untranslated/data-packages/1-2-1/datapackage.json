@@ -15,84 +15,18 @@
             "type": "integer"
           },
           {
-            "name": "Series",
+            "name": "COMMENT_OBS",
             "type": "string",
             "constraints": {
               "enum": [
-                "Proportion of population living below the national poverty line, by sex and age",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Sector",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Urban",
-                "Rural",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "State",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Abia",
-                "Adamawa",
-                "Akwa Ibom",
-                "Anambra",
-                "Bauchi",
-                "Bayelsa",
-                "Benue",
-                "Cross River",
-                "Delta",
-                "Ebonyi",
-                "Edo",
-                "Ekiti",
-                "Enugu",
-                "Gombe",
-                "Imo",
-                "Jigawa",
-                "Kaduna",
-                "Kano",
-                "Katsina",
-                "Kebbi",
-                "Kogi",
-                "Kwara",
-                "Lagos",
-                "Nasarawa",
-                "Niger",
-                "Ogun",
-                "Ondo",
-                "Osun",
-                "Oyo",
-                "Plateau",
-                "Rivers",
-                "Sokoto",
-                "Taraba",
-                "Yobe",
-                "Zamfara",
-                "FCT",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Unit",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Percentage(%)",
+                "Source: Kenya National Bureau of Statistics: Basic report on Well-being in Kenya. Poverty line is absolute. Government estimate.",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }

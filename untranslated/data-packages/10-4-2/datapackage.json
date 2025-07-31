@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Fiscal intervention stage: Postfiscal consumable income",
+                "Fiscal intervention stage: Postfiscal disposable income",
+                "Fiscal intervention stage: Prefiscal income",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -24,5 +36,5 @@
   ],
   "profile": "data-package",
   "name": "10-4-2",
-  "title": "Redistributive impact of fiscal policy"
+  "title": "Redistributive impact of fiscal policy on the Gini index"
 }

@@ -12,7 +12,19 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Composite breakdown",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Grounds of discrimination: Ethnic",
+                "Grounds of discrimination: Religion or belief",
+                "Grounds of discrimination: Socioeconomic status",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
